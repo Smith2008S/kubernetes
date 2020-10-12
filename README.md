@@ -138,8 +138,8 @@ ibmcloud cs clusters
 Despues debe tomar nota de la ip publica del cluster ejecutando el siguiente comando.
 
 ```
-ibmcloud cs workers <nombre del cluster>
-Ejemplo: ibmcloud cs workers iks-demo
+ibmcloud cs workers --cluster <nombre del cluster>
+Ejemplo: ibmcloud cs workers --cluster iks-demo
 ```
 
 <img width="700" alt="12" src="https://user-images.githubusercontent.com/50923637/68426065-5493df80-0175-11ea-86ba-9b9b3e96063c.png">
